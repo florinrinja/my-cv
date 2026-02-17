@@ -1,0 +1,39 @@
+.pagination-additional-class {
+    position: fixed;
+    top: 50%;
+    display: flex;
+    flex-direction: column;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+.page-link:hover, a:hover {
+    color: rgba(219,141,108,0.5);
+}
+
+.page-link {
+    border: none;
+    border-radius: 1rem;
+    color: rgba(219,141,108,0.5);
+}
+
+.page-item.active .page-link {
+    background-color: rgba(219,141,108,0.5);
+}
+
+.page-item{
+    margin-bottom: 1rem;
+}
+
+.pagination-lg .page-item:is(:first-child, :last-child) .page-link {
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}   
+
+@media (max-width: 768px) {
+    .pagination-additional-class>li:not(:last-of-type)>a,.pagination-additional-class>li:not(:last-of-type)>span {
+        margin-right:5px
+    }
+}
