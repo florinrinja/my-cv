@@ -1,0 +1,155 @@
+.worksOne {
+    background-color:white;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+@media screen and (min-height:500px) and (min-width:736px){
+.boldWork {
+    position: absolute;
+    bottom:1%;
+    right:1%;
+    font-size: 250px;
+    color: rgba(219,141,108,0.5);
+    font-weight: 700;
+}
+.meteoApp .scaneatApp {
+    width: 100%;
+    height: 23rem;
+    margin-bottom: 2%;
+    display: table;
+    text-align: center;
+    text-decoration: none;
+}
+.vertical-work{
+    display: none;
+    }
+}
+
+@media screen and (max-width:850px){
+    .contribText {
+        font-size: 0.80rem;
+    }
+    
+      .contribStrong{
+        font-size: 0.80rem;
+    }
+    
+    .appDescription{
+        font-size: 0.80rem;
+    }
+}
+
+@media screen and (min-height:500px) and (max-width:736px){
+    .boldWork {
+    position: absolute;
+    bottom:2%;
+    right: 10%;
+    font-size: 100px;
+    color: rgba(219,141,108,0.5);
+    font-weight: 700;
+    
+    }
+    .vertical-work{
+        display: none;
+        }
+        .meteoApp .scaneatApp {
+            width: 100%;
+            height: 13rem;
+            margin-bottom: 40px;
+            display: table;
+            text-align: center;
+            text-decoration: none;
+        }
+
+
+        
+}
+
+@media screen and (max-height:500px){
+.boldWork {
+    display: none;
+}
+
+.meteoApp .scaneatApp {
+    width: 100%;
+    height: 13rem;
+    margin-bottom: 30px;
+    display: table;
+    text-align: center;
+    text-decoration: none;
+}
+
+.vertical-work {
+    text-align: center;
+    writing-mode:vertical-rl; /* vertical text */
+    line-height:2rem; /* center in div */
+    transform:rotate(180deg); /* spin to orient as required */
+    background-color: rgba(219,141,108,0.5);
+    text-transform: uppercase;
+    color:rgb(108,186,219);
+  }
+
+  .contribText {
+    font-size: 0.70rem;
+}
+
+  .contribStrong{
+    font-size: 0.70rem;
+}
+
+.appDescription{
+    font-size: 0.70rem;
+}
+}
+
+.centeredWorkOne {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+}
+
+ .meteoApp{
+    width: 100%;
+ }
+
+@media screen and (min-height:800px) and (min-width:800px){
+ 
+}
+
+.scaneatApp{
+    background-image: url('./images/untitled.svg');
+    background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.contribText{
+    margin:0;
+    color:gray;
+}
+
+.contribStrong{
+   color: black;
+}
+
+.textDescription {
+    bottom: 10%;
+}
+
+.gitLink:link {
+    text-decoration: none;
+    color:gray;
+  }
+  
+  .gitlink:visited {
+    text-decoration: none;
+    color:gray;
+  }
+  
+  .gitLink:hover, a:active {
+    background-color: rgba(219,141,108,0.5);
+    color:gray;
+  }

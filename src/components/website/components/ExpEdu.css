@@ -1,0 +1,162 @@
+.colorLeft {
+background-color:	rgba(220,245,245, 0.5);
+padding: 0;
+}
+
+.colorRight {
+background-color:	rgba(219,141,108,0.5);
+padding: 0;
+}
+
+.row{
+height: 100%;
+}
+
+.container-fluid{
+height: 100%;
+}
+
+.firstExperience , .secondExperience {
+    text-align: right;
+    padding: 10px;
+}
+
+.firstEduc , .secondEduc {
+    text-align: left;
+}
+
+.educ {
+    margin:0;
+    padding: 5px;
+}
+
+.firstEduc{
+    background-color: rgba(220,245,245, 1);
+    color: rgba(219,141,108,1);
+    padding: 10px;
+}
+
+.secondEduc{
+    background-color:rgba(219,141,108,1);
+    color: 
+    rgba(220,245,245, 1);
+    padding: 10px;
+}
+
+.firstExperience{
+    background-color: rgba(220,245,245, 1);
+    color: rgba(219,141,108,1);
+}
+
+.secondExperience{
+    background-color:rgba(219,141,108,1);
+    color: 
+    rgba(37, 209, 209, 1);
+}
+
+.centeredSelect, .centeredRandom {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+} 
+
+
+
+.boldExp{
+position: absolute;
+bottom:0;
+right: 1%;
+font-size: 100px;
+color: rgba(220,245,245, 0.5);
+font-weight: 700;
+}
+
+.boldEdu{
+position: absolute;
+top:0;
+left: 1%;
+font-size: 100px;
+color: rgba(219,141,108,0.5);
+font-weight: 700;
+}
+
+
+@media screen and (max-height:500px) {
+    .educ {
+        font-size: 0.4rem;
+    }
+}
+@media screen and (max-width:500px){
+    .educ {
+        font-size: 0.4rem;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .boldExp, .boldEdu {
+        display: none;
+    }
+    .vertical-exp {
+        margin: 0;
+        height: 50%;
+        text-align: center;
+        writing-mode:vertical-rl; /* vertical text */
+        line-height:2rem; /* center in div */
+        transform:rotate(180deg); /* spin to orient as required */
+        background-color:rgba(220,245,245, 0.5);
+        text-transform: uppercase;
+        color:rgba(219,141,108,0.5);
+      }
+
+      .vertical-edu {
+        margin: 0;
+        height: 50%;
+        text-align: center;
+        writing-mode:vertical-rl; /* vertical text */
+        line-height:2rem; /* center in div */
+        transform:rotate(180deg); /* spin to orient as required */
+        background-color:rgba(219,141,108,0.5);
+        text-transform: uppercase;
+        color:rgb(108,186,219)
+      }
+}
+
+@media screen and (max-height:550px) {
+    .boldExp, .boldEdu {
+        display: none;
+    }
+    .vertical-exp {
+        margin: 0;
+        height: 50%;
+        text-align: center;
+        writing-mode:vertical-rl; /* vertical text */
+        line-height:2rem; /* center in div */
+        transform:rotate(180deg); /* spin to orient as required */
+        background-color:rgba(220,245,245, 0.5);
+        text-transform: uppercase;
+        color:rgba(219,141,108,0.5);
+      }
+
+      .vertical-edu {
+        margin: 0;
+        height: 50%;
+        text-align: center;
+        writing-mode:vertical-rl; /* vertical text */
+        line-height:2rem; /* center in div */
+        transform:rotate(180deg); /* spin to orient as required */
+        background-color:rgba(219,141,108,0.5);
+        text-transform: uppercase;
+        color:rgb(108,186,219)
+      }
+
+}
+
+@media screen and (min-height:551px) and (min-width:991px){
+    .vertical-exp{
+        display: none;
+    }
+    .vertical-edu{
+        display: none;
+    }
+} 
